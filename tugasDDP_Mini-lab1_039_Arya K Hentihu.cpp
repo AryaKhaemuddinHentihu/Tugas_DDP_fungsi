@@ -51,7 +51,7 @@ int main(){
 				
 				cout<<endl<<endl;
 				cout<<"-------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				
 				system("cls");
@@ -68,7 +68,7 @@ int main(){
 				
 				cout<<endl<<endl;
 				cout<<"-------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				
 				system("cls");
@@ -85,7 +85,7 @@ int main(){
 				
 				cout<<endl<<endl;
 				cout<<"-------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				
 				system("cls");
@@ -102,7 +102,7 @@ int main(){
 				
 				cout<<endl<<endl;
 				cout<<"-------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				
 				system("cls");
@@ -119,7 +119,7 @@ int main(){
 				
 				cout<<endl<<endl;
 				cout<<"-------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				
 				system("cls");
@@ -137,7 +137,7 @@ int main(){
 				
 				cout<<endl;
 				cout<<"-------------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				break;
 		}
@@ -147,7 +147,7 @@ int main(){
 				cout<<"Masukan (y/n) kakaaa\n";
 				cout<<endl;
 				cout<<"-------------------------\n";
-				cout<<"Apakah Ulang (y/n): ";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
 				cin>>ulang;
 				system("cls");
 			}while(ulang!='n'&&ulang!='y');
