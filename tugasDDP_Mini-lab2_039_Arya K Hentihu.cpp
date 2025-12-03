@@ -15,9 +15,9 @@ int main(){
 	
 	do{
 		cout<<"====== PERPANGKATAN ======\n";
-		cout<<"Masukan Angka   : ";
+		cout<<"Masukan Angkanya   : ";
 		cin>>n;
-		cout<<"Masukan pangkat : ";
+		cout<<"Masukan pangkatnya : ";
 		cin>>p;
 		cout<<"==========================\n";
 		cout<<"Hasil dari "<<n<<"^"<<p<<" = "<<pangkat(n,p)<<endl;
@@ -29,13 +29,15 @@ int main(){
 		system("cls");
 		
 		if(ulang!='y'&&ulang!='n'){
-			cout<<"==== !WARNING! ====\n";
-			cout<<"Masukan (y/n) kakaaa\n";
-			cout<<endl;
-			cout<<"-------------------------\n";
-			cout<<"Apakah Ulang (y/n): ";
-			cin>>ulang;
-			system("cls");
+			do{
+				cout<<"==== !WARNING! ====\n";
+				cout<<"Masukan (y/n) kakaaa\n";
+				cout<<endl;
+				cout<<"-------------------------\n";
+				cout<<"Apakah Ingin Mengulang (y/n): ";
+				cin>>ulang;
+				system("cls");
+			}while(ulang!='n'&&ulang!='y');
 		}
 		
 	}while(ulang=='y');
