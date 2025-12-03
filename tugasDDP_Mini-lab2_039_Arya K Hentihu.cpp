@@ -20,7 +20,12 @@ int main(){
 		cout<<"Masukan pangkatnya : ";
 		cin>>p;
 		cout<<"==========================\n";
-		cout<<"Hasil dari "<<n<<"^"<<p<<" = "<<pangkat(n,p)<<endl;
+		if(p==0){
+			cout<<"Hasil dari "<<n<<"^"<<p<<" = "<<1<<endl;
+		}else{
+			cout<<"Hasil dari "<<n<<"^"<<p<<" = "<<pangkat(n,p)<<endl;
+		}
+		
 		
 		cout<<endl;
 		cout<<"--------------------------\n";
