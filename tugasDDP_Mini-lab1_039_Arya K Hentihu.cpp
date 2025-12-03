@@ -142,13 +142,15 @@ int main(){
 				break;
 		}
 		if(ulang!='y'&&ulang!='n'){
-			cout<<"==== !WARNING! ====\n";
-			cout<<"Masukan (y/n) kakaaa\n";
-			cout<<endl;
-			cout<<"-------------------------\n";
-			cout<<"Apakah Ulang (y/n): ";
-			cin>>ulang;
-			system("cls");
+			do{
+				cout<<"==== !WARNING! ====\n";
+				cout<<"Masukan (y/n) kakaaa\n";
+				cout<<endl;
+				cout<<"-------------------------\n";
+				cout<<"Apakah Ulang (y/n): ";
+				cin>>ulang;
+				system("cls");
+			}while(ulang!='n'&&ulang!='y');
 		}
 	}while(ulang=='y');
 	cout<<"=== TERIMA KASIH ===\n";	
